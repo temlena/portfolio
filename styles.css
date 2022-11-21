@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    padding: 20px;
+    background:palevioletred;
+}
+nav ul{
+    display:flex ;
+    align-items: center ;
+    justify-content:flex-end ;
+    list-style: none ;
+    gap: 1.5em;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    background: #ff004f;
+    transition: .4s;
+    align-items: center;
+}
+.sec-one{
+    height: 100vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.profile-image img{
+    height: 100%;
+    width: 35%;
+}
+.sec-two{
+    height: 100vh;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: blanchedalmond;
+    line-height: 1.5em;
+    font-size: 600;
+}
+.sec-two h2{
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 1 rem;
+    font-weight: 400;
+}
+.skills{
+    padding-bottom: 25px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    width: 100%;
+    margin-top: 25px;
+    gap: 1.5em;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec-three{
+    background: floralwhite;
+}
