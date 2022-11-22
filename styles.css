@@ -41,7 +41,7 @@ nav ul li a:hover{
     width: 35%;
 }
 .sec-two{
-    height: 100vh;
+    height: 50vh;
     text-align: center;
     margin-top: 20px;
     padding: 10px;
@@ -53,13 +53,22 @@ nav ul li a:hover{
     font-weight: 600;
     margin-bottom: 10px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .skills h2{
     text-align: center;
     font-size: 1 rem;
     font-weight: 400;
+}
+.sec-two p{
+    font-size:1rem;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+
 }
 .skills{
     padding-bottom: 25px;
@@ -80,4 +89,5 @@ nav ul li a:hover{
 }
 .sec-three{
     background: floralwhite;
+    height: 50vh;
 }
