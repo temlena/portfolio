@@ -41,7 +41,7 @@ nav ul li a:hover{
     width: 35%;
 }
 .sec-two{
-    height: 50vh;
+    height: 80vh;
     text-align: center;
     margin-top: 20px;
     padding: 10px;
@@ -89,5 +89,4 @@ nav ul li a:hover{
 }
 .sec-three{
     background: floralwhite;
-    height: 50vh;
 }
