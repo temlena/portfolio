@@ -6,79 +6,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helen's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Public+Sans:ital,wght@0,400;1,200&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <h1>Helena</h1>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+        <div id="hamburger-icon" class ="hamburger-icon">
+            <img src="images/icon-hamburger.svg" alt="hamburger-icon">
+        </div>
+        <nav class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="sec-one">
-            <div class="introduction">
-                <h1>I'm Helen Oridupa</h1>
-                <p> A Software Developer</p>
-            </div>
-            <div class="profile-image">
-                <img src="about.jpg" alt="">
-            </div>
-        </section>
-        <section class="sec-two">
-            <div class="about">
-                <h2>About Me</h2>
-                <p>
-                    I first became thrilled with programming in 2020. I was having a discussion with my friend when he
-                    asked if I knew how to code. I later got access to a udemy course on python through my friend where
-                    I started learning the basics of programming. My immense quest for mastery in tech made me take up a
-                    career as a frontend developer. I started learning through bootcamps like sidehustle, ingressive for
-                    good, women techstar bootcamp to be proficient.
-                    Creating a good webpage involves understanding of how the web works and the basic tools for
-                    developing web pages. I learnt HTML, CSS, Git and Javascript. I will also learn other technologies
-                    to
-                    build great design and web interface.
-                    I'm currently open to internship roles to have practical hands on experience.
-                </p>
+        <div id="Home"class="hero-section">
+            <h1> HI I AM <span> HELEN </span> <span> ORIDUPA </span> A FRONTEND DEVELOPER </h1>
+        </div>
+        <div id="About" class="about">
+            <h2>About ME</h2>
+            <p>I am a frontend developer very passionate about developing amazing user interfaces and user experiences for users. I've developed a lot of experience building personal projects and collaborating with my colleagues in building projects.</p>
 
+            <div class = "resume">
+                <a href="https://drive.google.com/file/d/1vwRhJ8jm8sQsjsfcney9c7QuLl8_zo4K/view?usp=drivesdk" >Download Resume</a>
             </div>
-        </section>
-        <section class="sec-three">
-            <div class="skills">
-                <h2>My Skills</h2>
-                <div class="card">
-                    <div class="icon">
-                        <img src="/html-5.png" alt="">
-                        <p>Html</p>
-                    </div>
-                    <div class="icon">
-                        <img src="/css-3.png" alt="">
-                        <p>Css</p>
-                    </div>
-                    <div class="icon">
-                        <img src="/js.png" alt="">
-                        <p>Javascript</p>
-                    </div>
-                    <div class="icon">
-                        <img src="/merge.png" alt="">
-                        <p>Git</p>
-                    </div>
-                    <div class="icon">
-                        <img src="/python.png" alt="">
-                        <i class="fas fa-code fa-3x"></i>
-                        <p>Python</p>
-                    </div>
+        </div>
+
+        <div id="Skills"class = "skills">
+            <h2>
+                Skills
+            </h2>
+            <p class="skills-desc">These are the technologies i've worked with</p>
+            <div class="skills-container" >
+            <h3>HTML</h3>
+            <h3>CSS</h3>
+            <h3>JAVASCRIPT</h3>
+            <h3>REACT</h3>
+            <h3>GIT</h3>
+        </div>
+        </div>
+
+        <div id="Portfolio" class="portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="project-container">
+                <div class="project">
+                    <img src="images/cash2go.png" alt="">
+                    <h3>Loan Prediction App</h3>
+                    <h5>React </h5>
+                    <h5>Css</h5>
+                </div>
+
+                <div class="project">
+                    <img src="images/easybank.png" alt="">
+                    <h3>Easybank Landing Page</h3>
+                    <h5>HTML </h5>
+                    <h5>Css</h5>
+                    <h5>Javascript</h5>
+                </div>
+                <div class="project">
+                    <img src="images/netflix.png" alt="" >
+                    <h3>Netflix Clone</h3>
+                    <h5>HTML </h5>
+                    <h5>Css</h5>
+                    <h5>Javascript</h5>
+                </div>
+                <div class="project">
+                    <img src="images/udemy (1).png" alt="" >
+                    <h3>Udemy Clone</h3>
+                    <h5>HTML </h5>
+                    <h5>Css</h5>
+                    <h5>Javascript</h5>
                 </div>
 
             </div>
-        </section>
-    </main>
-</body>
+        </div>
 
+    </main>
+    <div id="Contact" class="contact">
+        <h2>CONTACT ME</h2>
+        <p>Reach out to me on the following </p>
+        <div class="social-links">
+            <div>
+        <a href="https://twitter.com/helen_oridupa?s=09"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/helenoridupa"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="https://github.com/temlena"><i class="fab fa-github fa-2x"></i></a>
+        <a href="mailto:oridupahelen@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+         </div>
+        <div class="connect">
+        <a href="mailto:oridupahelen@gmail.com">Let's Connect</a>
+    </div>
+</div>
+ <script src="script.js"></script>   
+</body>
 </html>
